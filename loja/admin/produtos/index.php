@@ -3,7 +3,7 @@ require_once('../inc/conexao.php');
 
 require_once ($base_path . 'inc/cabecalho.php');
 
-$sql = 'SELECT * FROM produtos';
+$sql = 'SELECT * FROM produtos ORDER BY id ASC';
 $resultado = pg_query($conexao, $sql);
 $resultado_array = pg_fetch_all($resultado);
 ?>
