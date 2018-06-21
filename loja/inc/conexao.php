@@ -5,3 +5,4 @@ $conexao = pg_connect('host=localhost port=5432 dbname=lojalpw user=postgres pas
 if(!$conexao){
 	echo 'nao rolou';
 }
+echo 'soihashaoihsaoihs';
